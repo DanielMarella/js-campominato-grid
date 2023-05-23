@@ -35,8 +35,30 @@ ul button{
 main{
     height: 80vh;
     background-color: #7fffd4;
+    padding: 4rem 0;
 }
 
+.select{
+    background-color: aqua;
+}
+
+
+
+.grid{
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    border: 2px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+
+}
 
 .foot{
     height: 10vh;
