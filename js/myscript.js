@@ -39,7 +39,6 @@ function(){
         )
         gridElement.appendChild(cellElement);
     }
-    return true
 }    
 )
 
