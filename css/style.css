@@ -1,0 +1,44 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head{
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    height: 100%;
+}
+
+.head ul{
+    display: flex;
+    align-items: center;
+}
+
+ul img{
+    margin: 0 30px;
+}
+
+ul button{
+    margin: 0 30px;
+}
+
+main{
+    height: 80vh;
+    background-color: #7fffd4;
+}
+
+
+.foot{
+    height: 10vh;
+    border: 2px solid black;
+}
