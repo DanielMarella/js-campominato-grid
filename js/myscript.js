@@ -31,10 +31,15 @@ function(){
     // creo un ciclo che stampi in pagina 100 volte il secondo elemento all'interno del primo
     for (let i = 0; i < 100; i++){
         const cellElement = addCellElement();
+        
+        cellElement.addEventListener('click',
+        function(){
+            cellElement.classList.toggle('select');
+        }
+        )
         gridElement.appendChild(cellElement);
     }
     return true
 }    
 )
-
 
